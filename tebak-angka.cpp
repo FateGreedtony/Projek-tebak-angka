@@ -20,17 +20,18 @@ int main(){
             percobaan++;
     
             if(tebakan < angkaRandom){
-                cout << "Salah! Angkanya tebakanmy terlalu rendah!" << endl;
+                cout << "Salah! Angkanya tebakanmy terlalu rendah! coba lagi!" << endl;
             } else if(tebakan > angkaRandom){
-                cout << "Salah! Angka tebakan mu terlalu tinggi!" << endl;
+                cout << "Salah! Angka tebakan mu terlalu tinggi! coba lagi!" << endl;
             } else {
                 cout << "Yeee, tebakan mu benar dipercobaan ke-" << percobaan << "! jawabannya adalah " << angkaRandom << endl;
             }
         } while(tebakan != angkaRandom);
-        cout << "Mau main lagi?" << endl;
+        cout << "Mau main lagi? [Y/N]" << endl;
         cin >> ulang;
-    } while(ulang != 'y' || ulang != 'Y');
-    
+    } while(ulang == 'y' || ulang == 'Y');
+    cout << "Okeh, silahkan datang lagi!" << endl;
 
-        return 0;
+    system("pause");
+    return 0;
 }
