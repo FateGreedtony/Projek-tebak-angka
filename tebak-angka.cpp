@@ -20,7 +20,7 @@ int main(){
             percobaan++;
     
             if(tebakan < angkaRandom){
-                cout << "Salah! Angkanya tebakanmy terlalu rendah! coba lagi!" << endl;
+                cout << "Salah! Angkanya tebakanny terlalu rendah! coba lagi!" << endl;
             } else if(tebakan > angkaRandom){
                 cout << "Salah! Angka tebakan mu terlalu tinggi! coba lagi!" << endl;
             } else {
